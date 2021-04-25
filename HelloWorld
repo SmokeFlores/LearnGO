@@ -1,0 +1,7 @@
+package main //Here it simply means that this files belongs to main package
+
+import "fmt" //Now Here we are exporting a already defined or a packagename
+
+func main() { //Here its just a Function Named Main ,Keep in mind it is not a reserved name
+    fmt.Println("Hello I am Akash Satyedev and Here We are Learning Go") //We are using fmt(println and fmt.println gives actually the same output but the only difference is that fmt.Println comes under standard library) Here we are simply priniting out the output just like in case of anyother language
+ 
