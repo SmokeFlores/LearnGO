@@ -1,0 +1,13 @@
+package main
+
+import("fmt"
+       "time" 
+       )
+func main(){
+     fmt.Println("Welcome its ur 1st Official Program")
+     
+     fmt.Println("the Time is",time.Now())
+}
+---------------------------------------------------------------
+Output-Welcome its ur 1st Official Program
+       the Time is 2009-11-10 23:00:00 +0000 UTC m=+0.000000001
