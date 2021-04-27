@@ -1,0 +1,39 @@
+//Hey Here We are Making A Simple Calculator With use of variables(User Input),Switch Cases And We Are Also Including Out Time
+package main
+
+import ("fmt"
+	    "time")
+
+func main(){                            
+var number1 int
+var number2 int
+var number int
+fmt.Println("Enter the First No")
+fmt.Scan(&number1)
+fmt.Println("Enter the Second No")
+fmt.Scan(&number2)
+fmt.Println("So Here we Go :Enter Out the Command u want to Exit For Eg- 1 - Add,2 - Subtract,3 - Divison,4 - Multiply,5 - Modulus")
+	
+
+fmt.Scan(&number)
+Sum:= number1+number2
+Subtract:= number1-number2
+Divison:= number1/number2
+Multiply:= number1*number2
+Modulus:= number1%number2
+
+switch number{
+case 1:
+fmt.Println("The sum is", Sum)
+case 2:
+fmt.Println("Difference is", Subtract)
+case 3:
+fmt.Println("Divison is", Divison)
+case 4:
+fmt.Println("Multipication is", Multiply)
+case 5:
+fmt.Println("Modulus is", Modulus)
+}
+fmt.Println("The Time for Execution out recorded while performing this Calculation is",time.Now())
+}
+	
