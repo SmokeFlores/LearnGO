@@ -1,0 +1,33 @@
+//Hey Folks Here We Are Creating A Program in Which We Have Used Token (Just to Clear Out Basic Concepts We Have Made This Concepts )
+package main
+
+import ("fmt"
+        "math/rand"
+         "time"//It generates a Random No
+    )
+func main(){
+
+fmt.Println("So Here we have List of Some Univ Please Select One Of Out of the Given List 1:LPU,2:VIT,3:SRM")
+var number int
+fmt.Scanln(&number)
+switch number{
+case 1:
+	fmt.Println("Thanks For Choosing LPU")
+case 2:
+	fmt.Println("Thanks For Choosing VIT")
+case 3:
+	fmt.Println("Thanks For Choosing SRM")
+}
+var FirstName string
+var LastName string
+var RegNo int
+//You Can Add as many Fields You Want I am just using some for better Understanding of concepts
+fmt.Println("Please Enter Your First Name")
+fmt.Scanln(&FirstName)
+fmt.Println("Please Enter Your Last Name")
+fmt.Scanln(&LastName)
+fmt.Println("Enter Reg No")
+fmt.Scanln(&RegNo)
+fmt.Println("Just Hold On for a While a Token Will Be Generated Soon Make Sure to Use it when Showing Up To University:Your token No is",rand.Intn(100),"Your Token Was Generated On",time.Now()) //It will generate a Random No with Type INT and of size in 2 Digit 
+
+}
